@@ -20,7 +20,7 @@
     /*********************************************/
 
     /* Global Values */
-    	--headerTOcontent--margin: clamp(4rem, calc(2rem + 3.2vw), 8rem); /* Base Value-> 6rem at 1250px */
+    	--headerTOcontent--margin: clamp(4rem, calc(2rem + 3.2vw), 10rem); /* Base Value-> 6rem at 1250px */
     /*********************************************/
 }
 
@@ -100,23 +100,23 @@ hr{
     /* Spacing Classes */
         .generalSection_spacing{
         	/* Base Padding-> padding-block: 7rem, padding-inline: 4rem */
-        	padding: clamp(3rem,calc(2rem + 4vw) ,9rem) clamp(1rem, calc(5vw - 2.25rem), 7rem);
+        	padding: clamp(3rem,calc(2rem + 4vw) ,9rem) clamp(1rem, calc(5vw - 2.25rem), 10rem);
         }
 
         .secondarySection_spacing{
         	/* Base Padding-> padding-block: 2rem, padding-inline: 4rem */
-            padding: clamp(1rem,calc(3vw - 1.7rem) ,3rem) clamp(1.5rem, calc(5vw - 2.25rem), 7rem);
+            padding: clamp(1rem,calc(3vw - 1.7rem) ,3rem) clamp(1.5rem, calc(5vw - 2.25rem), 10rem);
         	
         }
 
         .tertiarySection_spacing{
         	/* Base Padding-> padding-block: 2.5rem, padding-inline: 4rem */
-        	padding: clamp(1.5rem,calc(.5rem + 1.6vw) ,3.5rem) clamp(1rem, calc(5vw - 2.25rem), 7rem);
+        	padding: clamp(1.5rem,calc(.5rem + 1.6vw) ,3.5rem) clamp(1rem, calc(5vw - 2.25rem), 10rem);
         }
 
         .general_End_Section_spacing{
-        	padding-inline:clamp(1rem, calc(5vw - 2.25rem), 7rem);
-        	padding-block-end: clamp(3rem,calc(2rem + 4vw) ,9rem);
+        	padding-inline:clamp(1rem, calc(5vw - 2.25rem), 10rem);
+        	padding-block-end: clamp(3rem,calc(2rem + 4vw) ,12rem);
         }
     /* ********************************************* */
 
@@ -135,10 +135,10 @@ hr{
     		line-height: 1.1;
     	}
     	.lg_sz{
-    		font-size: clamp(2.5rem, calc(0.75rem + 2.2vw), 4.25rem); /* Base Size-> 3.5rem at 1250px */
+    		font-size: clamp(2.5rem, calc(0.75rem + 2.2vw), 5.5rem); /* Base Size-> 3.5rem at 1250px */
     	}
     	.midToLarge_sz{
-    		font-size: clamp(2rem, calc(1.2rem + 1.05vw), 3rem); /* Base Size-> 2.5rem at 1250px */
+    		font-size: clamp(2rem, calc(0.8rem + 1.36vw), 4rem); /* Base Size-> 2.5rem at 1250px */
     	}
         .upperMid_sz {
             font-size: 2rem;
@@ -152,13 +152,13 @@ hr{
         /* Font sizes Classes Media Queries */
         	@media only screen and (min-width: 1251px){
         		.super_l_sz{
-		    		font-size: clamp(8rem, calc(1.5rem + 5.2vw), 10rem);
+		    		font-size: clamp(8rem, calc(1.5rem + 5.2vw), 13.5rem);
 		    	}
         		.upperMid_sz {
-		            font-size: clamp(2rem,calc(0.8rem + 0.8vw) , 2.5rem);
+		            font-size: clamp(2rem,calc(0.65rem + 1.1vw) , 3.25rem);
 		        }
         		.mid_sz{
-		            font-size: clamp(1.5rem, calc(.25rem + 1vw),2rem);
+		            font-size: clamp(1.5rem, calc(0.35rem + 0.95vw),2.5rem);
 		        }
         	}
         	@media only screen and (max-width: 1250px){
@@ -198,12 +198,12 @@ hr{
         }
 
         .icon__EL.directionary_arrow__ICON{
-            width: 1.8rem;
+            width: clamp(1.6rem, calc(0.5rem + 0.9vw), 3.2rem);
         }
 
         .icon__EL.expand_arrow__ICON{
             background-position-y: 75%;
-            width: 1.6rem;
+            width: clamp(1.6rem, calc(.4rem + 1vw), 3rem);
         }
 
     	
@@ -233,7 +233,7 @@ hr{
 		}
 
 		.socialMedia__BLOCK__HEADER .socialMedia__BLOCK__HEADER__CONTENT_WRAPPER{
-			margin-bottom: 3.5rem;
+			margin-bottom: clamp(2rem, calc(1.5rem + 1.2vw), 4rem);
 		}
 
 		.socialMedia__BLOCK__HEADER .socialMedia__BLOCK__HEADER__CONTENT_WRAPPER .socialMedia__BLOCK__HEADER__TITLE{
@@ -246,7 +246,8 @@ hr{
 				display: grid;
 				grid-template-columns: repeat(4, minmax(15rem, 30rem));
 				justify-content: space-between;
-				gap: 2rem;
+				column-gap: 2rem;
+				row-gap: 1rem;
 			}
 
 			.socialMedia__LINKS_LIST .socialMedia__LINK_ITEM{
@@ -287,7 +288,7 @@ hr{
 			/* Footer Social Media Links Block -- Media Queries */
 				@media only screen and (min-width: 1536px){
 					.socialMedia__LINKS_CONTAINER .socialMedia__LINKS_LIST{
-						grid-template-columns: repeat(5, minmax(20rem, 30rem));
+						grid-template-columns: repeat(auto-fit, minmax(20rem, 35rem));
 					}
 				}
 

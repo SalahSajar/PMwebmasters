@@ -98,7 +98,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                column-gap: clamp(2rem, calc(3.6vw - 0.5rem), 6rem); /* Base Column gap-> H=4rem at 1250px */
+                column-gap: clamp(2rem, calc(3vw + 1rem), 10rem); /* Base Column gap-> H=6rem at 1250px */
             }
 
             /* Header Left-side Block -- Media Queries */
@@ -114,7 +114,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    column-gap: clamp(1.25rem ,calc(2.4vw - 0.96rem) ,2rem); /* Base Column gap-> H=2rem at 1250px */
+                    column-gap: clamp(1.25rem ,calc(2.4vw - 0.96rem) ,2rem); /* Base Column gap-> H=3rem at 1250px */
                 }
 
                 .header_leftside__BLOCK .navbar__BLOCK .navbar_links__LIST .navbar_link__ITEM .navbar_link__EL{
@@ -130,7 +130,7 @@
                 /* Header CTAs -- Media Queries */
                     @media only screen and (min-width: 1251px){
                         .header_leftside__BLOCK .navbar__BLOCK .navbar_links__LIST{
-                            column-gap: clamp(2rem ,calc(3.5vw - 2.4rem) ,4rem);
+                            column-gap: clamp(2rem ,calc(3.45vw - 2.7rem) ,5rem);
                         }
                     }
                 /*****************************************/
@@ -139,11 +139,11 @@
             /* Header CTAs */
                 .header_ctas__CONTAINER{
                     display: flex;
-                    column-gap: clamp(1.25rem ,calc(2.4vw - 0.96rem) ,2rem); /* Base Column gap-> H=2rem at 1250px */
+                    column-gap: clamp(1.25rem ,calc(2.4vw - 0.96rem) ,2rem); /* Base Column gap-> H=3rem at 1250px */
                 }
 
                 .header_cta__BTN{
-                    padding: clamp(1rem, calc(0.2rem + 1.05vw), 2rem) clamp(2rem, calc(1rem + 1.4vw), 3.5rem); /* Base Padding-> V=1.5rem, H=2.75rem at 1250px */
+                    padding: clamp(1rem, calc(0.2rem + .9vw), 2.5rem) clamp(2rem, calc(1rem + 1.5vw), 5rem); /* Base Padding-> V=1.5rem, H=2.75rem at 1250px */
                     border: 2px solid transparent;
                 }
 
@@ -165,7 +165,7 @@
                 /* Header CTAs -- Media Queries */
                     @media only screen and (min-width: 1251px){
                         .header_ctas__CONTAINER{
-                            column-gap: clamp(2rem ,calc(3.5vw - 2.4rem) ,4rem);
+                            column-gap: clamp(2rem ,calc(3.45vw - 2.7rem) ,5rem);
                         }
                     }
                 /*******************************************************/
@@ -201,7 +201,7 @@
 
                     .multilang_cta__BTN .multilang_cta__CONTENT_WRAPPER{
                         position: relative;
-                        padding: clamp(1rem, calc(0.2rem + 1.05vw), 2rem) clamp(2rem, calc(1rem + 1.4vw), 3.5rem); /* Base Padding-> V=1.5rem, H=2.75rem at 1250px */
+                        padding: clamp(1rem, calc(0.2rem + .9vw), 2.5rem) clamp(2rem, calc(1rem + 1.5vw), 5rem); /* Base Padding-> V=1.5rem, H=2.75rem at 1250px */
                     }
 
                     /* Multi-lang CTA Heading block */
@@ -251,7 +251,7 @@
 
                         .desktop_multilangs__LIST .other_lang__LIST_ITEM .other_lang__ITEM__LINK{
                             display: block;
-                            padding: 1.5rem .5rem;
+                            padding: clamp(1.5rem,.3rem + 0.75vw ,3rem) 0.5rem;
                         }
 
                         .desktop_multilangs__LIST .other_lang__LIST_ITEM .other_lang__ITEM__LINK:hover .other_lang__ITEM__TYPO{
@@ -477,7 +477,7 @@
     .digital_challenges__SECTION .digital_challenges__CONTENT_WRAPPER{
         display: flex;
         justify-content: space-between;
-        column-gap: 2.5rem;
+        column-gap: 2rem;
         row-gap: 4rem;
     }
 
@@ -488,7 +488,7 @@
     .digital_challenges__SECTION .digital_challenges__CONTENT_WRAPPER > div .digital_challenges__CARDS__CONTAINER{
         display: flex;
         flex-direction: column;
-        gap: 2.5rem;
+        gap: clamp(1.5rem, calc(.75rem + 1vw), 3rem); /* Base Gap-> 2rem at 1250px */
     }
 
     .digital_challenges__CARDS__CONTAINER .digital_challenges__CARD{
@@ -497,13 +497,15 @@
     }
 
     /* Digital challenges Section -- Media Queries */
+        @media only screen and (min-width: 1251px){
+            .digital_challenges__SECTION .digital_challenges__CONTENT_WRAPPER{
+                column-gap: clamp(2rem, calc(2.8vw - 1.4rem), 5rem);
+            }
+        }
+
         @media only screen and (max-width: 876px){
             .digital_challenges__SECTION .digital_challenges__CONTENT_WRAPPER{
                 flex-direction: column;
-            }
-
-            .digital_challenges__SECTION .digital_challenges__CONTENT_WRAPPER > div .digital_challenges__CARDS__CONTAINER{
-                gap: 1.5rem;
             }
         }
     /***********************************************/
@@ -523,7 +525,7 @@
 
             .digital_challenges__INTRODUCTION_TITLE{
                 color: var(--main-light-color);
-                margin-block: 1rem clamp(1.75rem, calc(0.7rem + 1.9vw), 3.5rem);
+                margin-block: 1rem clamp(1.75rem, calc(0.7rem + 1.9vw), 4.5rem);
             }
             .digital_challenges__INTRODUCTION_DESCRIPTION{
                 color: var(--main-light-color);
@@ -577,7 +579,7 @@
                 font-weight: 600;
             }
             .digital_challenges__CHALLENGE_CARD .digital_challenge__TITLE{
-                margin-block: clamp(1.75rem, calc(0.7rem + 1.9vw), 3.5rem);
+                margin-block: clamp(1.75rem, calc(0.7rem + 1.9vw), 4.5rem);
                 font-weight: 600;
             }
         /******************************************************
@@ -597,7 +599,7 @@
 
 /* ------------ Our Services Section ----------- */
     .ourServices__SECTION .ourServices__CONTENT_WRAPPER{
-        padding: clamp(1rem, calc(0.3rem + 2.2vw), 4.5rem); /* Base Padding-> H/V=3rem at 1250px */
+        padding: clamp(1rem, 2.4vw, 5rem); /* Base Padding-> H/V=3rem at 1250px */
         padding-bottom: 0;
         background-color: var(--main-light-color);
         border-radius: 3rem;
@@ -635,7 +637,7 @@
 
         /* ------------ Our Services Header Typos Side ----------- */
             .ourServices_header__TYPOS_SIDE{
-                padding: clamp(2rem, calc(0.3rem + 2.2vw), 4.5rem); /* Base Padding-> H/V=3rem at 1250px */
+                padding: clamp(2rem, 2.4vw, 5rem); /* Base Padding-> H/V=3rem at 1250px */
                 backdrop-filter: blur(0.7rem);
                 border-width: 0;
                 border-image-source: linear-gradient(116.79deg, rgba(var(--pale-lime-green--RGB), 0.9) 55.28%, rgba(var(--pale-lime-green--RGB), 0.7) 95.61%);
@@ -650,7 +652,7 @@
 
             .ourServices_header__TITLE{
                 font-weight: 400;
-                margin-block-end: 3rem;
+                margin-block-end: clamp(3rem, calc(0.5rem + 2vw), 5.5rem); /* Base Block-end Margin-> 3rem at 1250px  */
                 line-height: .9 !important;
             }
 
@@ -790,7 +792,7 @@
         /*******************************************************/
 
         .ourServices_service__CONTENT_WRAPPER hr{
-            margin-block: clamp(.9rem, calc(0.63rem + 0.5vw), 1.6rem); /* Base Margin-> V=1.25rem at 1250px */
+            margin-block: clamp(.9rem, calc(0.35rem + 0.7vw), 2rem); /* Base Margin-> V=1.25rem at 1250px */
         }
         
     /*******************************************************/
@@ -817,7 +819,7 @@
         .caseStudies__CARDS_CONTAINER{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 5rem 2.5rem;
+            gap: 5rem clamp(2.5rem, calc(1.3rem + 1vw), 3.5rem);
         }
 
         /* ------------ Our Services Details Section -- MEDIA QUERIES ----------- */
@@ -934,7 +936,7 @@
                 .FrequentlyAskedQuestions__QUESTION_BLOCK__CONTENT_WRAPPER .question_answer__EXPANSION_ICON{
                     position: relative;
                     height: .2rem;
-                    flex: 0 0 2rem;
+                    flex: 0 0 clamp(2rem, calc(0.25rem + 1.4vw), 3.5rem);
                 }
 
                 .FrequentlyAskedQuestions__QUESTION_BLOCK__CONTENT_WRAPPER .question_answer__EXPANSION_ICON::before,
@@ -974,8 +976,8 @@
                 }
 
                 .FrequentlyAskedQuestions__ANSWER_BLOCK .FrequentlyAskedQuestions__ANSWER__CONTENT_WRAPPER{
-                    padding-block: 1rem;
-                    max-width: 95rem;
+                    padding-block: clamp(1rem, calc(2.4vw - 2rem), 3rem);
+                    width: 85%;
                 }
 
                 .FrequentlyAskedQuestions__BULLETPOINTS_ANSWER__BLOCK .FrequentlyAskedQuestions__BULLETPOINTS_ANSWER{
@@ -991,6 +993,19 @@
                     font-style: italic;
                     font-weight: 700;
                 }
+
+                /* Answer Block -- MEDIA QUERIES */
+                    @media only screen and (max-width: 768px){
+                        .FrequentlyAskedQuestions__ANSWER_BLOCK .FrequentlyAskedQuestions__ANSWER__CONTENT_WRAPPER{
+                            width: 95%;
+                        }
+                    }
+                    @media only screen and (max-width: 436px){
+                        .FrequentlyAskedQuestions__ANSWER_BLOCK .FrequentlyAskedQuestions__ANSWER__CONTENT_WRAPPER{
+                            width: 100%;
+                        }
+                    }
+                /****************************************************/
             /****************************************************/
         /****************************************************/
     /****************************************************/
@@ -1033,6 +1048,11 @@
         }
 
         /* ------------ Contact Section Introduction Side -- MEDIA QUERIES ----------- */
+            @media only screen and (min-width: 1680px){
+                .contact__INTRODUCTION_SIDE{
+                    flex: 0.4 1 32rem;
+                }
+            }
             @media only screen and (max-width: 768px){
                 .contact__INTRODUCTION_SIDE{
                     flex: 1;

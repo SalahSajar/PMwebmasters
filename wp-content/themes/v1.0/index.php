@@ -6,7 +6,7 @@
             <div class="header__BLOCK__CONTENT_WRAPPER">
                 <div class="header_logo__WRAPPER">
                     <a href="/" class="header_logo__BTN" aria-label="agency logo that leads to home page">
-                        <img src="<?php echo get_theme_file_uri("/assets/media/logo.png"); ?>" alt="PMwebmasters">
+                        <img src="<?php echo get_theme_file_uri("/assets/media/logo.webp"); ?>" alt="PMwebmasters">
                     </a>
                 </div>
 
@@ -82,10 +82,10 @@
 
         <div class="hero_brandIntroduction__BLOCK">
             <div class="hero_brandIntroduction__CONTENT_WRAPPER">
-                <h1 class="hero_brandIntroduction__EYEBROW mid_sz">best web design agency in morocco</h1>
-                <span class="hero_brandIntroduction__TITLE super_l_sz">
+                <!-- <h1 class="hero_brandIntroduction__EYEBROW mid_sz">best web design agency in morocco</h1> -->
+                <h1 class="hero_brandIntroduction__TITLE super_l_sz">
                     We help you find your way<mark class="limeGreen__HIGHLIGHTER"> → </mark>through digital chaos
-                </span>
+                </h1>
                 <p class="hero_brandIntroduction__DESCRIPTION upperMid_sz">
                     Navigate the digital landscape with confidence. Expert web design, development, and branding solutions to <mark class="limeGreen__HIGHLIGHTER">[Drive Sales]</mark> and <mark class="limeGreen__HIGHLIGHTER">[Double Leads]</mark>
                 </p>
@@ -105,7 +105,7 @@
         </div>
 
         <div class="hero_results__BLOCK">
-            <div class="hero_results__CONTENT_WRAPPER" style="background-image: url(<?php echo get_theme_file_uri('/assets/media/texture/noise_texture.png'); ?>)">
+            <div class="hero_results__CONTENT_WRAPPER" style="background-image: url(<?php echo get_theme_file_uri('/assets/media/texture/noise_texture.webp'); ?>)">
                 <div class="hero_results__CONTAINER">
                     <div class="hero_result__BLOCK">
                         <div class="hero_result__CONTENT_WRAPPER">
@@ -201,7 +201,7 @@
     <div class="ourServices__CONTENT_WRAPPER">
         <header class="ourServices__HEADER">
             <div class="ourServices_header__CONTENT_WRAPPER">
-                <div class="ourServices_header__TYPOS_SIDE" style="background-image: url(<?php echo get_theme_file_uri('/assets/media/texture/noise_texture.png'); ?>)">
+                <div class="ourServices_header__TYPOS_SIDE" style="background-image: url(<?php echo get_theme_file_uri('/assets/media/texture/noise_texture.webp'); ?>)">
                     <div class="ourServices_header__typos_side__CONTENT_WRAPPER">
                         <h2 class="ourServices_header__TITLE super_l_sz">Here is how <br /> we can help you</h2>
                         <p class="ourServices_header__DESCRIPTION mid_sz">At PMwebmasters, our team of experts is driven by a passion for excellence and innovation. We specialize in every area your business needs to thrive in the digital realm. Our diverse expertise allows us to create customized strategies tailored to each client’s unique needs, ensuring consistent delivery of high-quality solutions that exceed client expectations. Whether you’re a startup, small business or mid-size  company, our experience and knowledge enable us to provide exceptional digital services that drive results.</p>
@@ -210,7 +210,7 @@
             </div>
             <div class="ourServices_header__SPINNER_BLOCK">
                 <div class="ourServices_header_spinner__DECORATION_WRAPPER">
-                    <img src="<?php echo get_theme_file_uri('/assets/media/decorations/Services_circle.png'); ?>" alt="Our Services" />
+                    <img src="<?php echo get_theme_file_uri('/assets/media/decorations/Services_circle.webp'); ?>" alt="Our Services" />
                 </div>
             </div>
         </header>
@@ -328,7 +328,7 @@
                         <a href="/" class="caseStudy_card__LINK">
                             <div class="caseStudy_card__CONTENT_CONTAINER">
                                 <div class="caseStudy_card__THUMBNAIL_CONTAINER">
-                                    <img src="<?php echo get_theme_file_uri('/assets/media/thumbnails/caseStudies/caseStudy_Thumbnail.jpg') ?>" alt="aa" />
+                                    <img src="<?php echo get_theme_file_uri('/assets/media/thumbnails/caseStudies/caseStudy_Thumbnail.webp') ?>" alt="aa" />
                                 </div>
                                 <div class="caseStudy_card__TYPOS_CONTAINER">
                                     <h3 class="caseStudy_card__TITLE lg_sz">Film production tool used by Hollywood’s biggest studios</h3>
@@ -341,7 +341,7 @@
                         <a href="/" class="caseStudy_card__LINK">
                             <div class="caseStudy_card__CONTENT_CONTAINER">
                                 <div class="caseStudy_card__THUMBNAIL_CONTAINER">
-                                    <img src="<?php echo get_theme_file_uri('/assets/media/thumbnails/caseStudies/caseStudy_Thumbnail.jpg') ?>" alt="aa" />
+                                    <img src="<?php echo get_theme_file_uri('/assets/media/thumbnails/caseStudies/caseStudy_Thumbnail.webp') ?>" alt="aa" />
                                 </div>
                                 <div class="caseStudy_card__TYPOS_CONTAINER">
                                     <h3 class="caseStudy_card__TITLE lg_sz">Film production tool used by Hollywood’s biggest studios</h3>
@@ -354,7 +354,7 @@
                         <a href="/" class="caseStudy_card__LINK">
                             <div class="caseStudy_card__CONTENT_CONTAINER">
                                 <div class="caseStudy_card__THUMBNAIL_CONTAINER">
-                                    <img src="<?php echo get_theme_file_uri('/assets/media/thumbnails/caseStudies/caseStudy_Thumbnail.jpg') ?>" alt="aa" />
+                                    <img src="<?php echo get_theme_file_uri('/assets/media/thumbnails/caseStudies/caseStudy_Thumbnail.webp') ?>" alt="aa" />
                                 </div>
                                 <div class="caseStudy_card__TYPOS_CONTAINER">
                                     <h3 class="caseStudy_card__TITLE lg_sz">Film production tool used by Hollywood’s biggest studios</h3>

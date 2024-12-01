@@ -11,15 +11,15 @@
 			    			<div class="socialMedia__LINKS_CONTAINER">
 			    				<ul class="socialMedia__LINKS_LIST">
 			    					<li class="socialMedia__LINK_ITEM">
-			    						<a href="/" class="socialMedia__LINK">
+			    						<a href="https://www.facebook.com/profile.php?id=100095096136330" target="_blank" class="socialMedia__LINK">
 			    							<div class="socialMedia__LINK__CONTENT_WRAPPER">
-			    								<span class="socialMedia__LINK__TYPO upperMid_sz">LinkedIn</span>
+			    								<span class="socialMedia__LINK__TYPO upperMid_sz">Facebook</span>
 			    								<i class="icon__EL directionary_arrow__ICON" style="background-image:url(<?php echo get_theme_file_uri('/assets/media/icons/directionary_arrow__LIGHT.png') ?>)"></i>
 			    							</div>
 			    						</a>
 			    					</li>
 			    					<li class="socialMedia__LINK_ITEM">
-			    						<a href="/" class="socialMedia__LINK">
+			    						<a href="https://x.com/pmwebmasters" target="_blank" class="socialMedia__LINK">
 			    							<div class="socialMedia__LINK__CONTENT_WRAPPER">
 			    								<span class="socialMedia__LINK__TYPO upperMid_sz">Twitter / X</span>
 			    								<i class="icon__EL directionary_arrow__ICON" style="background-image:url(<?php echo get_theme_file_uri('/assets/media/icons/directionary_arrow__LIGHT.png') ?>)"></i>
@@ -27,7 +27,7 @@
 			    						</a>
 			    					</li>
 			    					<li class="socialMedia__LINK_ITEM">
-			    						<a href="/" class="socialMedia__LINK">
+			    						<a href="https://www.instagram.com/pmwebmasters" target="_blank" class="socialMedia__LINK">
 			    							<div class="socialMedia__LINK__CONTENT_WRAPPER">
 			    								<span class="socialMedia__LINK__TYPO upperMid_sz">Instagram</span>
 			    								<i class="icon__EL directionary_arrow__ICON" style="background-image:url(<?php echo get_theme_file_uri('/assets/media/icons/directionary_arrow__LIGHT.png') ?>)"></i>
@@ -35,7 +35,7 @@
 			    						</a>
 			    					</li>
 			    					<li class="socialMedia__LINK_ITEM">
-			    						<a href="/" class="socialMedia__LINK">
+			    						<a href="https://www.behance.net/salahesajar" target="_blank" class="socialMedia__LINK">
 			    							<div class="socialMedia__LINK__CONTENT_WRAPPER">
 			    								<span class="socialMedia__LINK__TYPO upperMid_sz">Behance</span>
 			    								<i class="icon__EL directionary_arrow__ICON" style="background-image:url(<?php echo get_theme_file_uri('/assets/media/icons/directionary_arrow__LIGHT.png') ?>)"></i>
@@ -49,7 +49,7 @@
 			    	<div class="copyright__BLOCK">
 			    		<div class="copyright__BLOCK__CONTENT_WRAPPER secondarySection_spacing">
 			    			<center>
-			    				<span class="copyright__EL mid_sz">[&copy;]2024 PM WebMasters. All rights reserved</span>
+			    				<span class="copyright__EL mid_sz">[&copy;]2024 PMwebmasters. All rights reserved</span>
 			    			</center>
 			    		</div>
 			    	</div>
@@ -57,13 +57,13 @@
 			</footer>
 
 			<div class="mobile_nav_menu__BLOCK" data-openmenu="false">
-				<div class="mobile_nav_menu__BLOCK__CONTENT_WRAPPER secondarySection_spacing" style="background-image: url(<?php echo get_theme_file_uri('/assets/media/texture/noise_texture.png'); ?>)">
+				<div class="mobile_nav_menu__BLOCK__CONTENT_WRAPPER secondarySection_spacing" style="background-image: url(<?php echo get_theme_file_uri('/assets/media/texture/noise_texture.webp'); ?>)">
 					<div class="mobile_nav_menu__HEADER">
 						<div class="mobile_nav_menu__HEADER__CONTENT_WRAPPER">
 							<div class="mobile_nav_menu__BRAND_LOGO__BLOCK">
 								<a href="/" class="mobile_nav_menu__BRAND_LOGO__LINK">
 									<div class="mobile_nav_menu__BRAND_LOGO__WRAPPER">
-										<img src="<?php echo get_theme_file_uri("/assets/media/logo__DARK.png"); ?>" alt="PMwebmasters">
+										<img src="<?php echo get_theme_file_uri("/assets/media/logo__DARK.webp"); ?>" alt="PMwebmasters">
 									</div>
 								</a>
 							</div>

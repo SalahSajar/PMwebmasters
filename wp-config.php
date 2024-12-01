@@ -21,18 +21,17 @@
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 
-if(strstr($_SERVER['SERVER_NAME'], 'pmwebmasters.xyz')){
-
-	define( 'DB_NAME', 'pmwebmasters' ); /** Database Name */
-	define( 'DB_USER', 'SalahSajar' ); /** Database username */
-	define( 'DB_PASSWORD', 'Vampiresalah#1' ); /** Database password */
-	define( 'DB_HOST', 'PMwebmasters' ); /** Database hostname */
-} else {
-
+if(strstr($_SERVER['SERVER_NAME'], 'localhost')){
 	define( 'DB_NAME', 'pmwebmasters' );
 	define( 'DB_USER', 'root' ); /** Database username */
 	define( 'DB_PASSWORD', '' ); /** Database password */
 	define( 'DB_HOST', 'localhost' ); /** Database hostname */
+} else {
+
+	define( 'DB_NAME', 'slkreatihflatifa' ); /** Database Name */
+	define( 'DB_USER', 'slkreatihflatifa' ); /** Database username */
+	define( 'DB_PASSWORD', '1990Yoobin' ); /** Database password */
+	define( 'DB_HOST', 'slkreatihflatifa.mysql.db:3306' ); /** Database hostname */
 }
 
 /** Database charset to use in creating database tables. */

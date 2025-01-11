@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    mode: 'development', // Change to 'production' for optimized builds
+    mode: 'production', // Choose either 'development' or 'production' for optimized builds
     entry: ['./src/index.js', "./src/openSimplexNoise.js"],
     output: {
         filename: 'bundle.js',

@@ -9,8 +9,10 @@ function loadStaticScripts__HANDLER()
 	// Loading Javascript Scripts
 	wp_enqueue_script_module(
 		"OpenSimplexNoise Sketching Module",
-		get_theme_file_uri("./build/js/bundle.js"),
-		["simplex-noise"]
+		get_theme_file_uri("build/js/bundle.js"),
+		array(),
+		NULL,
+		true 
 	);
 }
 

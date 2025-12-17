@@ -21,10 +21,10 @@
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 
-define( 'DB_NAME', $_SERVER["EXTERNAL_DB_NAME"] );
-define( 'DB_USER', $_SERVER["EXTERNAL_DB_USERNAME"] );
-define( 'DB_PASSWORD', $_SERVER["EXTERNAL_DB_PASSWORD"] );
-define( 'DB_HOST', $_SERVER["EXTERNAL_DB_HOST"] );
+define( 'DB_NAME', 'dbGt3ouQVbbUx5kQHq3NiuDx');
+define( 'DB_USER', '01a458dd7c5680004c168040b63c' );
+define( 'DB_PASSWORD', '069401a4-58de-72c8-8000-26114029fec8' );
+define( 'DB_HOST', '069401a4-58de-72c8-8000-26114029fec8' );
 
 // if(strstr($_SERVER['SERVER_NAME'], 'localhost')){
 // 	define( 'DB_NAME', $_SERVER['LOCAL_DB_NAME']);

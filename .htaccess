@@ -11,6 +11,12 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /PMwebmasters.com/index.php [L]
-</IfModule>
 
+SetEnv LOCAL_DB_NAME "pmwebmasters"
+SetEnv External_DB_NAME 'dbGt3ouQVbbUx5kQHq3NiuDx'
+SetEnv External_DB_HOST 'db.fr-pari1.bengt.wasmernet.com:10272'
+SetEnv External_DB_USERNAME '01a458dd7c5680004c168040b63c'
+SetEnv External_DB_PASSWORD '069401a4-58de-72c8-8000-26114029fec8'
+
+</IfModule>
 # END WordPress

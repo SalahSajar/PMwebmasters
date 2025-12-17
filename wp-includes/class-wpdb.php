@@ -1998,7 +1998,7 @@ class wpdb {
 				die();
 			}
 
-			$message = '<h1>' . __( 'Error establishing a database connection' ) . "</h1>\n";
+			$message = '<h1>' . __( 'Error establishing a database connection ' + $_SERVER["DB_NAME"] + " " + getenv("DB_NAME") + " " + $_SERVER['External_DB_NAME'] + " " + getenv("External_DB_NAME") ) . "</h1>\n";
 
 			$message .= '<p>' . sprintf(
 				/* translators: 1: wp-config.php, 2: Database host. */

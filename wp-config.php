@@ -24,7 +24,7 @@
 define( 'DB_NAME', 'dbGt3ouQVbbUx5kQHq3NiuDx');
 define( 'DB_USER', '01a458dd7c5680004c168040b63c' );
 define( 'DB_PASSWORD', '069401a4-58de-72c8-8000-26114029fec8' );
-define( 'DB_HOST', '069401a4-58de-72c8-8000-26114029fec8' );
+define( 'DB_HOST', 'db.fr-pari1.bengt.wasmernet.com:10272' );
 
 // if(strstr($_SERVER['SERVER_NAME'], 'localhost')){
 // 	define( 'DB_NAME', $_SERVER['LOCAL_DB_NAME']);

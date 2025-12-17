@@ -21,17 +21,22 @@
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 
-if(strstr($_SERVER['SERVER_NAME'], 'localhost')){
-	define( 'DB_NAME', $_SERVER['LOCAL_DB_NAME']);
-	define( 'DB_USER', 'root' ); /** Database username */
-	define( 'DB_PASSWORD', '' ); /** Database password */
-	define( 'DB_HOST', 'localhost' ); /** Database hostname */
-} else {
-	define( 'DB_NAME', $_SERVER["EXTERNAL_DB_NAME"] );
-	define( 'DB_USER', $_SERVER["EXTERNAL_DB_USERNAME"] );
-	define( 'DB_PASSWORD', $_SERVER["EXTERNAL_DB_PASSWORD"] );
-	define( 'DB_HOST', $_SERVER["EXTERNAL_DB_HOST"] );
-}
+define( 'DB_NAME', $_SERVER["EXTERNAL_DB_NAME"] );
+define( 'DB_USER', $_SERVER["EXTERNAL_DB_USERNAME"] );
+define( 'DB_PASSWORD', $_SERVER["EXTERNAL_DB_PASSWORD"] );
+define( 'DB_HOST', $_SERVER["EXTERNAL_DB_HOST"] );
+
+// if(strstr($_SERVER['SERVER_NAME'], 'localhost')){
+// 	define( 'DB_NAME', $_SERVER['LOCAL_DB_NAME']);
+// 	define( 'DB_USER', 'root' ); /** Database username */
+// 	define( 'DB_PASSWORD', '' ); /** Database password */
+// 	define( 'DB_HOST', 'localhost' ); /** Database hostname */
+// } else {
+// 	define( 'DB_NAME', $_SERVER["EXTERNAL_DB_NAME"] );
+// 	define( 'DB_USER', $_SERVER["EXTERNAL_DB_USERNAME"] );
+// 	define( 'DB_PASSWORD', $_SERVER["EXTERNAL_DB_PASSWORD"] );
+// 	define( 'DB_HOST', $_SERVER["EXTERNAL_DB_HOST"] );
+// }
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );

@@ -1,16 +1,4 @@
 <?php
-
-	var_dump($_SERVER['SERVER_NAME']);
-	var_dump(" ------------------------------- ");
-	var_dump($_SERVER['HTTP_HOST']);
-	var_dump(" ------------------------------- ");
-	var_dump($_SERVER['DB_NAME']);
-	var_dump(" ------------------------------- ");
-	var_dump(getenv("DB_NAME"));
-	var_dump(" ------------------------------- ");
-	var_dump($_SERVER['External_DB_NAME']);
-	var_dump(" ------------------------------- ");
-	var_dump(getenv("External_DB_NAME"));
 /**
  * Bootstrap file for setting the ABSPATH constant
  * and loading the wp-config.php file. The wp-config.php

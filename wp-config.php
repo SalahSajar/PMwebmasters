@@ -29,14 +29,13 @@ if(strstr($_SERVER['HTTP_HOST'], 'localhost')){
 	define( 'DB_PASSWORD', '' ); /** Database password */
 	define( 'DB_HOST', 'localhost' ); /** Database hostname */
 } else {
-	define( 'DB_NAME', 'dbGt3ouQVbbUx5kQHq3NiuDx');
-	define( 'DB_USER', '01a458dd7c5680004c168040b63c' );
-	define( 'DB_PASSWORD', '069401a4-58de-72c8-8000-26114029fec8' );
-	define( 'DB_HOST', 'db.fr-pari1.bengt.wasmernet.com:10272' );
-	// define( 'DB_NAME', $_SERVER["EXTERNAL_DB_NAME"] );
-	// define( 'DB_USER', $_SERVER["EXTERNAL_DB_USERNAME"] );
-	// define( 'DB_PASSWORD', $_SERVER["EXTERNAL_DB_PASSWORD"] );
-	// define( 'DB_HOST', $_SERVER["EXTERNAL_DB_HOST"] );
+	define( 'WP_HOME', 'https://pmtestingground.wasmer.app' );
+	define( 'WP_SITEURL', 'https://pmtestingground.wasmer.app' );
+
+	define( 'DB_NAME', getenv("DB_NAME"));
+	define( 'DB_USER', getenv("DB_USERNAME") );
+	define( 'DB_PASSWORD', getenv("DB_PASSWORD") );
+	define( 'DB_HOST', getenv("DB_HOST") + ":" + getenv("DB_PORT") );
 }
 
 /** Database charset to use in creating database tables. */

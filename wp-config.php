@@ -35,7 +35,9 @@ if(strstr($_SERVER['HTTP_HOST'], 'localhost')){
 	define( 'DB_NAME', getenv("DB_NAME"));
 	define( 'DB_USER', getenv("DB_USERNAME") );
 	define( 'DB_PASSWORD', getenv("DB_PASSWORD") );
-	define( 'DB_HOST', getenv("DB_HOST") + ":" + getenv("DB_PORT") );
+	$DB_HOST = getenv("DB_HOST");
+	$DB_PORT = getenv("DB_PORT");
+	define( 'DB_HOST', "$DB_HOST:$DB_PORT" );
 }
 
 /** Database charset to use in creating database tables. */

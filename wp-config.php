@@ -23,7 +23,7 @@
 
 
 
-if(strstr($_SERVER['SERVER_NAME'], 'localhost')){
+if(strstr($_SERVER['HTTP_HOST'], 'localhost')){
 	define( 'DB_NAME', "pmwebmasters");
 	define( 'DB_USER', 'root' ); /** Database username */
 	define( 'DB_PASSWORD', '' ); /** Database password */

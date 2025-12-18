@@ -29,12 +29,13 @@ if(strstr($_SERVER['HTTP_HOST'], 'localhost')){
 	define( 'DB_PASSWORD', '' ); /** Database password */
 	define( 'DB_HOST', 'localhost' ); /** Database hostname */
 } else {
-	define( 'WP_HOME', 'https://pmtestingground.wasmer.app' );
-	define( 'WP_SITEURL', 'https://pmtestingground.wasmer.app' );
+	define( 'WP_HOME', 'https://pmwebmasters.wasmer.app' );
+	define( 'WP_SITEURL', 'https://pmwebmasters.wasmer.app' );
 
 	define( 'DB_NAME', getenv("DB_NAME"));
 	define( 'DB_USER', getenv("DB_USERNAME") );
 	define( 'DB_PASSWORD', getenv("DB_PASSWORD") );
+
 	$DB_HOST = getenv("DB_HOST");
 	$DB_PORT = getenv("DB_PORT");
 	define( 'DB_HOST', "$DB_HOST:$DB_PORT" );

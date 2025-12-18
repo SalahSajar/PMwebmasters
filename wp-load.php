@@ -1,9 +1,4 @@
 <?php
-
-	$DB_HOST = getenv("DB_HOST");
-	$DB_PORT = getenv("DB_PORT");
-
-	var_dump("$DB_PORT:$DB_PORT");
 /**
  * Bootstrap file for setting the ABSPATH constant
  * and loading the wp-config.php file. The wp-config.php

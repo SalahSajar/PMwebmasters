@@ -1,6 +1,8 @@
 <?php
 
 	var_dump($_SERVER['SERVER_NAME']);
+	var_dump("--------------------------------");
+	var_dump($_SERVER['HTTP_HOST']);
 /**
  * Bootstrap file for setting the ABSPATH constant
  * and loading the wp-config.php file. The wp-config.php

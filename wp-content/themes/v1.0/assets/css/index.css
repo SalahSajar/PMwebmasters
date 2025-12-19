@@ -810,11 +810,6 @@
                     gap: 3.5rem;
                 }
             }
-            @media only screen and (min-width: 1536px){
-                .caseStudies__CARDS_CONTAINER{
-                    grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
-                }
-            }
         /***********************************************************************/
 
         /* Case Study Card */
